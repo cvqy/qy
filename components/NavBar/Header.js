@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
@@ -64,7 +65,8 @@ const NavBar = () => {
     {
       id: 3,
       name: t.NAV.SEARCH,
-      to: '/search',
+      // to: '/search',
+      to: '/',
       icon: <SearchIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     }
@@ -180,6 +182,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link passHref href='/' scroll={false}>
             <a aria-label={BLOG.title}>
               <motion.div className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current'>
+                <Image src="../../notionic/public/favicon.png" alt='qy' />
               </motion.div>
             </a>
           </Link>
