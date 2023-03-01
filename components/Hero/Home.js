@@ -1,7 +1,6 @@
 // import BLOG from '@/blog.config'
-import Image from 'next/image'
 import Link from 'next/link'
-// import Avatar from './NotionAvatar.js'
+import Avatar from './Avatar.js'
 // import Social from '../Common/Social.js'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
@@ -54,8 +53,7 @@ const Hero = ({ blockMap }) => {
           </div>
         </div>
         <div className='w-2/5'>
-          {/* <Avatar className='text-gray-600 dark:text-gray-300' /> */}
-          <Image src="https://tvax3.sinaimg.cn/crop.0.0.512.512.180/006bCXMJly8gdtre5pw73j30e80e8aaj.jpg?KID=imgbed,tva&Expires=1677657564&ssig=J0Q%2FuuuxrN" alt='qy' />
+          <Avatar className='text-gray-600 dark:text-gray-300' />
         </div>
       </div>
     </>
