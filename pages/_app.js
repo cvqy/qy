@@ -75,7 +75,7 @@ function MyApp({ Component, pageProps }) {
               <Component {...pageProps} />
             </div>
         </TransitionEffect>
-        <Footer fullWidth={pageProps.post ? pageProps.post.fullWidth : false} />
+        {/* <Footer fullWidth={pageProps.post ? pageProps.post.fullWidth : false} /> */}
       </ThemeProvider>
     </>
   )

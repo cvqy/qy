@@ -4,7 +4,7 @@ const BLOG = {
   email: '1817552@gmail.com',
   link: 'www.google.com',
   newsletter: 'no',
-  description: '清鸢的留声机',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
