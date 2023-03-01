@@ -65,7 +65,7 @@ const Footer = ({ fullWidth }) => {
       }`}
     >
       <footer className='max-w-screen-2xl px-4 md:px-8 mx-auto'>
-        <div className='flex flex-col md:flex-row justify-between items-center border-b dark:border-gray-600 py-1'>
+        {/* <div className='flex flex-col md:flex-row justify-between items-center border-b dark:border-gray-600 py-1'>
           <ul className='flex flex-wrap justify-center md:justify-start md:gap-1'>
             {links.map(
               (link) =>
@@ -90,7 +90,7 @@ const Footer = ({ fullWidth }) => {
           <div className='hidden md:flex'>
             <Social />
           </div>
-        </div>
+        </div> */}
 
         <div className='text-gray-400 text-xs font-light py-4'>
           © {from === y || !from ? y : `${from} - ${y}`} | {BLOG.author}
