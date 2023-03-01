@@ -55,7 +55,7 @@ const Hero = ({ blockMap }) => {
         </div>
         <div className='w-2/5'>
           {/* <Avatar className='text-gray-600 dark:text-gray-300' /> */}
-          <Image src="@/public/favicon.png" alt='qy' />
+          <Image src="notionic/public/favicon.png" alt='qy' />
         </div>
       </div>
     </>
