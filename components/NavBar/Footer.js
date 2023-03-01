@@ -1,62 +1,62 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
-import {
-  UserIcon,
-  UsersIcon,
-  BookOpenIcon,
-  MailIcon
-} from '@heroicons/react/outline'
-import Social from '../Common/Social.js'
+// import {
+//   UserIcon,
+//   UsersIcon,
+//   BookOpenIcon,
+//   MailIcon
+// } from '@heroicons/react/outline'
+// import Social from '../Common/Social.js'
 import { motion } from 'framer-motion'
 
 const Footer = ({ fullWidth }) => {
-  const router = useRouter()
+  // const router = useRouter()
   const { locale } = useRouter()
   const t = lang[locale]
 
-  let activeMenu = ''
-  if (router.query.slug) {
-    activeMenu = '/' + router.query.slug
-  } else {
-    activeMenu = router.pathname
-  }
+  // let activeMenu = ''
+  // if (router.query.slug) {
+  //   activeMenu = '/' + router.query.slug
+  // } else {
+  //   activeMenu = router.pathname
+  // }
 
   const d = new Date()
   const y = d.getFullYear()
   const from = +BLOG.since
 
-  const links = [
-    {
-      id: 0,
-      name: t.NAV.ABOUT,
-      to: BLOG.path || '/about',
-      icon: <UserIcon className='inline-block mb-1 h-5 w-5' />,
-      show: true
-    },
-    {
-      id: 1,
-      name: t.NAV.FRINEDS,
-      to: '/friends',
-      icon: <UsersIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.pagesShow.friends
-    },
-    {
-      id: 2,
-      name: t.NAV.BOOKS,
-      to: '/books',
-      icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.pagesShow.books
-    },
-    {
-      id: 3,
-      name: t.NAV.CONTACT,
-      to: '/contact',
-      icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.pagesShow.contact
-    }
-  ]
+  // const links = [
+  //   {
+  //     id: 0,
+  //     name: t.NAV.ABOUT,
+  //     to: BLOG.path || '/about',
+  //     icon: <UserIcon className='inline-block mb-1 h-5 w-5' />,
+  //     show: true
+  //   },
+  //   {
+  //     id: 1,
+  //     name: t.NAV.FRINEDS,
+  //     to: '/friends',
+  //     icon: <UsersIcon className='inline-block mb-1 h-5 w-5' />,
+  //     show: BLOG.pagesShow.friends
+  //   },
+  //   {
+  //     id: 2,
+  //     name: t.NAV.BOOKS,
+  //     to: '/books',
+  //     icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
+  //     show: BLOG.pagesShow.books
+  //   },
+  //   {
+  //     id: 3,
+  //     name: t.NAV.CONTACT,
+  //     to: '/contact',
+  //     icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
+  //     show: BLOG.pagesShow.contact
+  //   }
+  // ]
 
   return (
     <motion.div

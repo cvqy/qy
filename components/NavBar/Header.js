@@ -5,7 +5,7 @@ import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import {
   HomeIcon,
-  NewspaperIcon,
+  // NewspaperIcon,
   CollectionIcon,
   SparklesIcon,
   SearchIcon,
@@ -180,7 +180,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link passHref href='/' scroll={false}>
             <a aria-label={BLOG.title}>
               <motion.div className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current'>
-                
               </motion.div>
             </a>
           </Link>
