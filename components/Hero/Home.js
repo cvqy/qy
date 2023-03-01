@@ -1,4 +1,5 @@
 // import BLOG from '@/blog.config'
+import Image from 'next/image'
 import Link from 'next/link'
 // import Avatar from './NotionAvatar.js'
 // import Social from '../Common/Social.js'
@@ -52,9 +53,10 @@ const Hero = ({ blockMap }) => {
             </Link>
           </div>
         </div>
-        {/* <div className='w-2/5'>
-          <Avatar className='text-gray-600 dark:text-gray-300' />
-        </div> */}
+        <div className='w-2/5'>
+          {/* <Avatar className='text-gray-600 dark:text-gray-300' /> */}
+          <Image src="@/public/favicon.png" alt='qy' />
+        </div>
       </div>
     </>
   )
