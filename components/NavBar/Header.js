@@ -182,7 +182,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link passHref href='/' scroll={false}>
             <a aria-label={BLOG.title}>
               <motion.div className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current'>
-                <Image src="../../notionic/public/favicon.png" alt='qy' />
+                <Image src="@/public/favicon.png" alt='qy' />
               </motion.div>
             </a>
           </Link>
