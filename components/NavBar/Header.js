@@ -7,13 +7,13 @@ import {
   HomeIcon,
   // NewspaperIcon,
   CollectionIcon,
-  SparklesIcon,
+  // SparklesIcon,
   SearchIcon,
   MenuIcon
 } from '@heroicons/react/outline'
 import Social from '../Common/Social.js'
 import ThemeSwitcher from './ThemeSwitcher.js'
-import LangSwitcher from './LangSwitcher.js'
+// import LangSwitcher from './LangSwitcher.js'
 import { motion } from 'framer-motion'
 
 const NavBar = () => {
