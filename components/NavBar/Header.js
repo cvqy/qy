@@ -53,14 +53,13 @@ const NavBar = () => {
       icon: <CollectionIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.notes
     },
-    {
-      id: 2,
-      name: t.NAV.PROJECTS,
-      // to: '/projects',
-      to: '/',
-      icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.pagesShow.projects
-    },
+    // {
+    //   id: 2,
+    //   name: t.NAV.PROJECTS,
+    //   to: '/',
+    //   icon: <SparklesIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: BLOG.pagesShow.projects
+    // },
     {
       id: 3,
       name: t.NAV.SEARCH,
@@ -95,7 +94,7 @@ const NavBar = () => {
       </ul>
 
       <ThemeSwitcher />
-      <LangSwitcher />
+      {/* <LangSwitcher /> */}
 
       {/* Mobile Phone Menu */}
       <div className='md:hidden mr-2 block '>

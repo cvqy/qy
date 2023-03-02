@@ -5,7 +5,7 @@ const BLOG = {
   link: 'www.google.com',
   newsletter: 'no',
   description: '',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
@@ -28,9 +28,9 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com',
-    github: 'https://github.com',
-    telegram: 'https://t.me'
+    bilibili: 'https://space.bilibili.com/20979589?spm_id_from=333.337.0.0',
+    weibo: 'https://weibo.com/u/5668622969?refer_flag=1008085010_',
+    douyin: 'https://www.douyin.com/user/MS4wLjABAAAAyOQ3BdAw9pZxp6C6KwD1dBdkdPOdl5kAIdW1BWGm95i9LP65x1TlSKi47ZSsxO8H'
   },
   seo: {
     keywords: ['Blog'],

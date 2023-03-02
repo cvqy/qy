@@ -1,7 +1,7 @@
 // import Link from 'next/link'
 import BLOG from '@/blog.config'
-import { lang } from '@/lib/lang'
-import { useRouter } from 'next/router'
+// import { lang } from '@/lib/lang'
+// import { useRouter } from 'next/router'
 // import {
 //   UserIcon,
 //   UsersIcon,
@@ -13,8 +13,8 @@ import { motion } from 'framer-motion'
 
 const Footer = ({ fullWidth }) => {
   // const router = useRouter()
-  const { locale } = useRouter()
-  const t = lang[locale]
+  // const { locale } = useRouter()
+  // const t = lang[locale]
 
   // let activeMenu = ''
   // if (router.query.slug) {
@@ -92,7 +92,7 @@ const Footer = ({ fullWidth }) => {
           </div>
         </div> */}
 
-        <div className='text-gray-400 text-xs font-light py-4'>
+        <div className='text-gray-400 text-xs font-light py-4 flex flex-col md:flex-row justify-between items-center'>
           © {from === y || !from ? y : `${from} - ${y}`} | {BLOG.author}
           {/* <p className='md:float-right'>
             {t.FOOTER.COPYRIGHT_START}
