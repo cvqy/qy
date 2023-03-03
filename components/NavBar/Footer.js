@@ -94,13 +94,13 @@ const Footer = ({ fullWidth }) => {
 
         <div className='text-gray-400 text-xs font-light py-4 flex flex-col md:flex-row justify-between items-center'>
           © {from === y || !from ? y : `${from} - ${y}`} | {BLOG.author}
-          <p className='md:float-right'>
+          {/* <p className='md:float-right'>
             {t.FOOTER.COPYRIGHT_START}
             <a className='underline' href={`${t.FOOTER.COPYRIGHT_LINK}`}>
               {t.FOOTER.COPYRIGHT_NAME}
             </a>
             {t.FOOTER.COPYRIGHT_END}
-          </p>
+          </p> */}
         </div>
       </footer>
     </motion.div>
